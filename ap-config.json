@@ -3,12 +3,12 @@
     "Config":  {
                    "DB":  ".\\data",
                    "Node-Path":  ".\\bin\\www",
-                   "DBName":  "youtube"
+                   "DBName":  "connect"
                },
-    "Name":  "AP Project",
+    "Name":  "Connect Us",
     "Node-Agent":  "nodemon",
     "Authors":  [
-                    "Apoorv Verma [AP] \u003cavdaredevil@gmail.com\u003e"
+                    "ALL COOL KIDS in the Contributers"
                 ],
     "ssh":  "NA",
     "Port":  3000,
