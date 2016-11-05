@@ -1,0 +1,15 @@
+*.pdf
+## Directories
+node_modules/
+bower_components/
+data/
+downloads/
+venv/
+Lol/
+config/
+dist/
+*.swp
+*.swo
+.idea/
+.DS_Store
+npm-debug.log
