@@ -6,6 +6,7 @@ var querystring = require("querystring");
 var mongoose = require("mongoose");
 var fs = require("fs");
 var Video = mongoose.model("Video");
+var User = mongoose.model("User")
 var dl_y = require("youtube-dl");
 
 var router   = express.Router();

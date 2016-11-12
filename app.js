@@ -14,12 +14,13 @@ var io = require('socket.io')(http);
 mongoose.Promise = global.Promise
 mongoose.connect("mongodb://localhost/youtube")
 require("./models/Video")
+require("./models/users")
 //==View=======================================================================|
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
 // uncomment after placing your favicon in /public
-app.use(favicon(path.join(__dirname, 'public', 'octopus.png')));
+app.use(favicon(path.join(__dirname, 'public', 'favicon.svg')));
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
